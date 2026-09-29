@@ -5,7 +5,7 @@ Humans: see [README.md](README.md).
 
 ## Project overview
 
-**Today** is a single-page todo list. It is static HTML, CSS, and vanilla JavaScript,
+**Tended** ("a quiet place for your day") is a single-page todo list. It is static HTML, CSS, and vanilla JavaScript,
 with no framework, no build step, and no dependencies. Todos persist in the browser's `localStorage`.
 It is deployed to Vercel as a static site.
 
@@ -31,6 +31,8 @@ One-way data flow. Keep it that way.
 3. **`commit()`** = `save()` (localStorage, key `today.todos.v2`) + `render()`.
 4. **`render()`** rebuilds the list from state using the `#todo-template` element. Never patch individual rows by hand.
 5. **Events** are delegated on `#list` (change / click / dblclick). Don't attach listeners per row.
+
+The storage key keeps its `today.` prefix from before the rename to Tended. Don't rename it, or saved todos will be lost.
 
 If you change the shape of a todo, bump the storage key (e.g. `v2` → `v3`) and migrate in `load()`. `load()` already migrates `v1` data, which had no priority.
 

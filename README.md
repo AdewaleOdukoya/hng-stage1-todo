@@ -1,6 +1,8 @@
-# Today
+# Tended
 
-A simple, quiet todo list. It's built with plain HTML, CSS and JavaScript: no framework, no build step.
+*A quiet place for your day.*
+
+Tended is a simple, beautiful todo list. It's built with plain HTML, CSS and JavaScript: no framework, no build step.
 
 **Live:** https://hng-stage1-todo.vercel.app
 

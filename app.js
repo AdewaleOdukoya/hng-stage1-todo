@@ -1,4 +1,4 @@
-// Today — a quiet todo list. State lives in localStorage; the DOM is re-rendered from state.
+// Tended — a quiet place for your day. State lives in localStorage; the DOM is re-rendered from state.
 
 const STORAGE_KEY = "today.todos.v2";
 const LEGACY_KEY = "today.todos.v1";
