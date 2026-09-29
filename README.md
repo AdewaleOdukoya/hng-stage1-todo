@@ -2,7 +2,7 @@
 
 A simple, quiet todo list. It's built with plain HTML, CSS and JavaScript: no framework, no build step.
 
-**Live:** _(Vercel URL goes here)_
+**Live:** https://hng-stage1-todo.vercel.app
 
 ## Features
 
