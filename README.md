@@ -4,7 +4,7 @@
 
 Tended is a simple, beautiful todo list. It's built with plain HTML, CSS and JavaScript: no framework, no build step.
 
-**Live:** https://hng-stage1-todo.vercel.app
+**Live:** https://tended-todo.vercel.app
 
 ## Features
 
